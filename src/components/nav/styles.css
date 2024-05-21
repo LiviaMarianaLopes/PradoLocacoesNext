@@ -1,0 +1,108 @@
+
+.container {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0.5%;
+  max-width: 100%;
+  font-weight: 400px;
+  font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #333;
+    box-shadow: 0px 2px 5px 0px #6b01b6,
+    0px 5px 10px 0px #9900ff;
+}
+  
+  ul {
+    width: 100%;
+    max-height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  a{
+    padding: 23.2px 20px;
+  }
+ 
+  li{
+    align-content: center;
+    padding: 3%;
+  width:  max-content;
+  max-height: 100%;
+  height: max-content;
+    margin-inline: 10px;
+  }
+  
+ 
+  
+  h1 {
+    font-family: "Pairfair display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    max-width: fit-content;
+    font-size: 24px;
+    padding-inline: 130px;
+  }
+  
+
+
+.neon-effect:hover {
+  box-shadow: 0px 0px 10px 5px rgba(255, 0, 221, 0.5);
+  animation: border-animation-purple  0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+.neon-effect-orange:hover {
+  box-shadow: 0px 0px 10px 5px rgba(255, 140, 0, 0.5);
+  animation: border-animation-orange  0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.neon-effect-green:hover {
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 0, 0.5);
+  animation: border-animation-green  0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.neon-effect-blue:hover {
+  box-shadow: 0px 0px 10px 5px rgba(0, 255, 255, 0.5);
+  animation: border-animation-blue  0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes border-animation-purple {
+  0% {
+    box-shadow: inset 0px 0px 0px 0px rgba(255, 0, 221, 0);
+  }
+  100% {
+    box-shadow: inset 0px -7px 2.5px -3px  rgba(255, 0, 221, 0.5);
+  }
+}
+@keyframes border-animation-orange {
+  0% {
+    box-shadow: inset 0px 0px 0px 0px rgba(255, 0, 221, 0);
+  }
+  100% {
+    box-shadow:inset 0px -7px 2.5px -3px  rgba(255, 140, 0, 0.5);
+  }
+}
+@keyframes border-animation-green{
+  0% {
+    box-shadow: inset 0px 0px 0px 0px rgba(255, 0, 221, 0);
+  }
+  100% {
+    box-shadow: inset 0px -7px 2.5px -3px  rgba(9, 255, 0, 0.5);
+  }
+}
+@keyframes border-animation-blue{
+  0% {
+        
+    box-shadow: inset 0px 0px 0px 0px rgba(255, 0, 221, 0);
+  }
+  100% {
+    box-shadow: inset 0px -7px 2.5px -3px  rgba(0, 255, 255, 0.5);
+  }
+}
