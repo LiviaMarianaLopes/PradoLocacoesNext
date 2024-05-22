@@ -13,7 +13,9 @@ const Footer = () => {
     <footer>
       <section className="footer-text">
         <p>
-        Deixe a Prado Locações cuidar dos detalhes, enquanto você se concentra no sucesso do seu evento. Entre em contato conosco hoje mesmo e descubra como podemos ajudar a tornar seu evento inesquecível!
+          Deixe a Prado Locações cuidar dos detalhes, enquanto você se concentra
+          no sucesso do seu evento. Entre em contato conosco hoje mesmo e
+          descubra como podemos ajudar a tornar seu evento inesquecível!
         </p>
       </section>
       <section className="socials">
@@ -36,6 +38,8 @@ const Footer = () => {
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
       </section>
+      <p>Email: prado.locacoes@gmail.com</p>
+      <p>Whatssap: (11)97459-2264</p>
     </footer>
   );
 };
