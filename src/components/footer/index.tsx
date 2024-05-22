@@ -11,10 +11,9 @@ import { faEnvelope, faVoicemail } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
     <footer>
-      <section>
+      <section className="footer-text">
         <p>
-          A Prado Locações é especialista em locações de estruturas para Shows e
-          Eventos. Faça um orçamento sem compromisso!
+        Deixe a Prado Locações cuidar dos detalhes, enquanto você se concentra no sucesso do seu evento. Entre em contato conosco hoje mesmo e descubra como podemos ajudar a tornar seu evento inesquecível!
         </p>
       </section>
       <section className="socials">
