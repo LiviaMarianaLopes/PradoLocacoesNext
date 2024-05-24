@@ -1,5 +1,5 @@
 .div-banner{
-    padding: 1%;
+    padding: 2%;
     width: 100%;
     /* background-image: linear-gradient(to bottom,transparent, rgb(240, 208, 149)); */
 }
@@ -28,14 +28,14 @@
   padding-top: 4%;
   width: 50%;
   text-align: center;
-  margin: 2%;
-  font-size: xx-large;
+  margin: 3%;
+  font-size: 0.6em;
   align-items: center;
   justify-content: top;
 }
 .content-banner p{
     font-weight: 450;
-    font-size: 0.6em;
+    font-size: 2em;
   padding: 1%;
 }
 .content-banner h1{
@@ -44,18 +44,22 @@
     width: 100%;
     text-align: center;
 }
-@media screen and (max-width: 603px){
-.content-banner{
-  font-size: large;
+@media screen and (max-width: 1040px){
+  .div-banner > div{
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
 }
-.content-banner p{
-  font-size: smaller;
+.content-banner{
+  width: 100%;
+  padding: 0%;
+}
+
+.div-banner img{
+  width: 100%;
+  padding: 1%;
+}
+.content-banner h1{
+  padding: 0%;
 }
  }
- @media screen and (max-width: 490px){
-  .content-banner{
-    font-size: smaller;
-    text-align: center;
-  }
-  
-   }

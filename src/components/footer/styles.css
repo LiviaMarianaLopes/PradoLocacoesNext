@@ -39,7 +39,7 @@ svg{
     justify-content: center;
     padding: 0;
     margin-bottom: 4%;
-    width: 10%;
+    width: 4em;
     transition: color 0.8s;
 }
 .footer-text{
@@ -47,3 +47,21 @@ svg{
     text-align: center;
     padding: 2%;
 }
+ @media screen and (max-width: 866px){
+    .footer-text{
+        width: 90%;
+    }
+ }
+ @media screen and (max-width: 525px){
+    .footer-text{
+        width: 100%;
+    }
+    .socials{
+        width: 60%;
+    }
+ }
+ @media screen and (max-width: 375px){
+    .socials{
+        width: 80%;
+    }
+ }

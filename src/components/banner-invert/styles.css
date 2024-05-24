@@ -1,5 +1,5 @@
 .div-banner-invert{
-    padding: 1%;
+    padding: 2%;
     width: 100%;
     /* background-image: linear-gradient(to bottom, rgb(240, 208, 149),transparent); */
 }
@@ -50,18 +50,25 @@
 .div-banner-invert li{
     padding-bottom: 2%;
 }
-@media screen and (max-width: 603px){
-.content-banner{
-  font-size: large;
+@media screen and (max-width: 1040px){
+  .div-banner-invert > div{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.content-banner p{
-  font-size: smaller;
+.div-banner-invert .content-banner{
+  width: 100%;
+  padding: 0%;
+}
+
+.div-banner-invert img{
+  width: 100%;
+  padding: 1%;
+}
+.content-banner h1{
+  padding: 0%;
+}
+.div-banner-invert{
+  padding: 2%;
 }
  }
- @media screen and (max-width: 490px){
-  .content-banner{
-    font-size: smaller;
-    text-align: center;
-  }
-  
-   }
