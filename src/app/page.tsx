@@ -1,17 +1,18 @@
 import Image from "next/image";
 import Banner from "@/components/banner";
 import BannerInvert from "@/components/banner-invert/BannerInvert";
+import BannerCenter from "@/components/bannerCenter";
 export default function Home() {
   return (
     <main>
       <Banner
         src="/tenda-evento.jpg"
         title="Bem-vindo à Prado Locações"
-        content="Na Prado Locações, somos especialistas em fornecer tudo o que você precisa para garantir o sucesso do seu evento. Com anos de experiência no mercado, oferecemos uma ampla variedade de estruturas e equipamentos de alta qualidade para atender às suas necessidades."
+        content={<p>Na Prado Locações, somos <em className="destaque">especialistas</em> em fornecer tudo o que você precisa para garantir o sucesso do seu evento. Com <em className="destaque">anos de experiência</em> no mercado, oferecemos uma ampla variedade de estruturas e equipamentos de <em className="destaque">alta qualidade</em> para atender às suas necessidades.</p>}
         class="banner-black"
       ></Banner>
       <BannerInvert
-        src="/tendas-jogo.jpg"
+        src="/banheiros2.jpg"
         title="Nossos Serviços:"
         content={
           <ul>
@@ -36,6 +37,7 @@ export default function Home() {
         }
         class="banner-black"
       ></BannerInvert>
+      <BannerCenter title="Pode contar conosco!" src="/evento-equipe.jpg"></BannerCenter>
     </main>
   );
 }

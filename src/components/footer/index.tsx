@@ -19,22 +19,22 @@ const Footer = () => {
         </p>
       </section>
       <section className="socials">
-        <a className="social-link" href="https://wa.me/5511974592264">
+        <a className="social-link whats" href="https://wa.me/5511974592264">
           <FontAwesomeIcon icon={faWhatsapp} />
         </a>
         <a
-          className="social-link"
+          className="social-link face"
           href="https://www.facebook.com/pradoeventos/"
         >
           <FontAwesomeIcon icon={faFacebook} />
         </a>
         <a
-          className="social-link"
+          className="social-link insta"
           href="https://www.instagram.com/pradolocacoes/"
         >
           <FontAwesomeIcon icon={faInstagram} />
         </a>
-        <a className="social-link" href="mailto:prado.locacoes@gmail.com">
+        <a className="social-link email" href="mailto:prado.locacoes@gmail.com">
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
       </section>

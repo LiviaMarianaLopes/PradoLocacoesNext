@@ -14,8 +14,17 @@ svg{
     width: 40%;
     max-width: fit-content;
 }
-.social-link:hover{
+.whats:hover{
+    color: rgb(141, 244, 57);
+}
+.face:hover{
+    color: rgb(73, 57, 244);
+}
+.insta:hover{
     color: rgb(244, 57, 182);
+}
+.email:hover{
+    color: rgb(244, 57, 57);
 }
 .socials{
     margin: 0%;
@@ -31,6 +40,7 @@ svg{
     padding: 0;
     margin-bottom: 4%;
     width: 10%;
+    transition: color 0.8s;
 }
 .footer-text{
     width: 60%;

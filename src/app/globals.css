@@ -25,6 +25,9 @@ main{
   background-image: linear-gradient(to bottom,transparent , rgb(223, 202, 250) , transparent);
 
 }
+.destaque{
+  background-color: rgb(243, 215, 250);
+}
 
 @layer utilities {
   .text-balance {
