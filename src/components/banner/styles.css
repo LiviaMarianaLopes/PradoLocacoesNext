@@ -1,5 +1,6 @@
 .div-banner{
-    padding: 2%;
+    padding-inline: 2%;
+    padding-top: 0%;
     width: 100%;
     /* background-image: linear-gradient(to bottom,transparent, rgb(240, 208, 149)); */
 }

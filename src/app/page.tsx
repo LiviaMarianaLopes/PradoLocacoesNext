@@ -2,9 +2,36 @@ import Image from "next/image";
 import Banner from "@/components/banner";
 import BannerInvert from "@/components/banner-invert/BannerInvert";
 import BannerCenter from "@/components/bannerCenter";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faVoicemail } from "@fortawesome/free-solid-svg-icons";
 export default function Home() {
   return (
     <main>
+      <section className="socials-nav">
+        <a className="social-link whats" href="https://wa.me/5511974592264">
+          <FontAwesomeIcon icon={faWhatsapp} />
+        </a>
+        <a
+          className="social-link face"
+          href="https://www.facebook.com/pradoeventos/"
+        >
+          <FontAwesomeIcon icon={faFacebook} />
+        </a>
+        <a
+          className="social-link insta"
+          href="https://www.instagram.com/pradolocacoes/"
+        >
+          <FontAwesomeIcon icon={faInstagram} />
+        </a>
+        <a className="social-link email" href="mailto:prado.locacoes@gmail.com">
+          <FontAwesomeIcon icon={faEnvelope} />
+        </a>
+      </section>
       <Banner
         src="/tenda-evento.jpg"
         title="Bem-vindo à Prado Locações"

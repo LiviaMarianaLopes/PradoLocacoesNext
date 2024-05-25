@@ -28,6 +28,19 @@ main{
 .destaque{
   background-color: rgb(243, 215, 250);
 }
+.socials-nav{
+  padding-top: 2%;
+  margin: 0%;
+  padding-inline: 2%;
+  width: 100%;
+  justify-content:right;
+  align-items: center;
+  display: flex;
+
+}
+.socials-nav a{
+  padding: 0%;
+}
 
 @layer utilities {
   .text-balance {
