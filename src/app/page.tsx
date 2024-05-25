@@ -8,7 +8,16 @@ export default function Home() {
       <Banner
         src="/tenda-evento.jpg"
         title="Bem-vindo à Prado Locações"
-        content={<p>Na Prado Locações, somos <em className="destaque">especialistas</em> em fornecer tudo o que você precisa para garantir o sucesso do seu evento. Com <em className="destaque">anos de experiência</em> no mercado, oferecemos uma ampla variedade de estruturas e equipamentos de <em className="destaque">alta qualidade</em> para atender às suas necessidades.</p>}
+        content={
+          <p>
+            Na Prado Locações, somos <em className="destaque">especialistas</em>{" "}
+            em fornecer tudo o que você precisa para garantir o sucesso do seu
+            evento. Com <em className="destaque">anos de experiência</em> no
+            mercado, oferecemos uma ampla variedade de estruturas e equipamentos
+            de <em className="destaque">alta qualidade</em> para atender às suas
+            necessidades.
+          </p>
+        }
         class="banner-black"
       ></Banner>
       <BannerInvert
@@ -18,8 +27,11 @@ export default function Home() {
           <ul>
             <li>
               <b>Lixeiras:</b> Soluções práticas e eficientes para a gestão de
-              resíduos durante o seu evento.Tendas: Proteção e estilo para
-              qualquer tipo de evento, garantindo conforto e segurança.
+              resíduos durante o seu evento.
+            </li>
+            <li>
+              <b>Tendas:</b> Proteção e estilo para qualquer tipo de evento,
+              garantindo conforto e segurança.
             </li>
             <li>
               <b>Unifilas:</b> Organização e controle de filas para manter o
@@ -37,7 +49,10 @@ export default function Home() {
         }
         class="banner-black"
       ></BannerInvert>
-      <BannerCenter title="Pode contar conosco!" src="/evento-equipe.jpg"></BannerCenter>
+      <BannerCenter
+        title="Pode contar conosco!"
+        src="/evento-equipe.jpg"
+      ></BannerCenter>
     </main>
   );
 }
