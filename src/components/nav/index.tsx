@@ -18,10 +18,9 @@ const Nav = () => {
         </li>
       </ul>
       <Image src={"/logo.jpeg"} width={200} height={100} alt="logo" />
-      {/* <h1>Prado Locações</h1> */}
       <ul>
         <li>
-          <Link href="" className="neon-effect-blue">
+          <Link href="" className="neon-effect-blue produtos-link">
             Produtos
           </Link>
         </li>

@@ -11,8 +11,8 @@ import { faEnvelope, faVoicemail } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
     <footer>
-      <section className="footer-text">
-        <p>
+      <section className="footer-text info">
+        <p >
           Deixe a Prado Locações cuidar dos detalhes, enquanto você se concentra
           no sucesso do seu evento. Entre em contato conosco hoje mesmo e
           descubra como podemos ajudar a tornar seu evento inesquecível!
@@ -38,8 +38,11 @@ const Footer = () => {
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
       </section>
-      <p>Email: prado.locacoes@gmail.com</p>
-      <p>Whatssap: (11)97459-2264</p>
+      <section className="footer-text">
+        <p>Whatssap: (11)97459-2264</p>
+        <p>Email: prado.locacoes@gmail.com</p>
+      </section>
+      
     </footer>
   );
 };

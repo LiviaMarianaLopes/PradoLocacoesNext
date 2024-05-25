@@ -42,10 +42,13 @@ svg{
     width: 4em;
     transition: color 0.8s;
 }
-.footer-text{
+.info{
     width: 60%;
     text-align: center;
     padding: 2%;
+}
+.footer-text{
+    text-align: center;
 }
  @media screen and (max-width: 866px){
     .footer-text{
@@ -54,7 +57,7 @@ svg{
  }
  @media screen and (max-width: 525px){
     .footer-text{
-        width: 100%;
+        width: 80%;
     }
     .socials{
         width: 60%;
@@ -62,9 +65,9 @@ svg{
  }
  @media screen and (max-width: 375px){
     .socials{
-        width: 80%;
+        width: 100%;
     }
     .footer-text{
-        width: 80%;
+        width: 100%;
     }
  }
