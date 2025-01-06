@@ -1,6 +1,7 @@
 import Link from "next/link";
 import "./styles.css";
 import Image from "next/image";
+import { Router } from "next/router";
 const Nav = () => {
   return (
     <div className="container">
@@ -17,10 +18,18 @@ const Nav = () => {
           </Link>
         </li>
       </ul>
-      <Image src={"/logo.jpeg"} width={200} height={100} alt="logo" />
-      <ul>
+      <Link href="/">
+        <Image
+          src={"/logo.jpeg"}
+          width={450}
+          height={100}
+          alt="logo"
+          className="cursor-pointer" // Classe para indicar interatividade
+       />
+       </Link>
+              <ul>
         <li>
-          <Link href="" className="neon-effect-blue produtos-link">
+          <Link href="/produtos" className="neon-effect-blue produtos-link">
             Produtos
           </Link>
         </li>
